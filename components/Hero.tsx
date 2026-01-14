@@ -3,9 +3,9 @@ import { ArrowDownRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative w-full h-screen bg-[#050505] overflow-hidden">
+    <div className="relative w-full h-screen bg-[#c8c8c8] overflow-hidden">
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black z-10 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-black/30 z-10 pointer-events-none" />
 
       {/* Spline 3D Model */}
       <div className="absolute inset-0 w-full h-full z-0">
